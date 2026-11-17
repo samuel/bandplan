@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Band plan",
+  "description": "Radio channel plans: band sets made of named bands, each a list of channels.",
+  "type": "object",
+  "required": ["version", "sets"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "description": "File format version.",
+      "const": 1
+    },
+    "sets": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/bandSet" }
+    }
+  },
+  "$defs": {
+    "bandSet": {
+      "description": "A named collection of bands covering a theme or standard. Bands and channels may overlap in frequency.",
+      "type": "object",
+      "required": ["name", "bands"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "$ref": "#/$defs/name" },
+        "bands": {
+          "type": ["array", "null"],
+          "items": { "$ref": "#/$defs/band" }
+        }
+      }
+    },
+    "band": {
+      "description": "A named group of channels.",
+      "type": "object",
+      "required": ["name", "channels"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "$ref": "#/$defs/name" },
+        "channels": {
+          "type": ["array", "null"],
+          "items": { "$ref": "#/$defs/channel" }
+        }
+      }
+    },
+    "channel": {
+      "description": "A channel spanning centerHz - widthHz/2 to centerHz + widthHz/2, edges inclusive.",
+      "type": "object",
+      "required": ["name", "centerHz", "widthHz"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "$ref": "#/$defs/name" },
+        "centerHz": { "$ref": "#/$defs/hertz" },
+        "widthHz": { "$ref": "#/$defs/hertz" }
+      }
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "hertz": {
+      "description": "Frequency in hertz. The maximum, 2^53-1, is the largest integer an IEEE 754 double holds exactly.",
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9007199254740991
+    }
+  }
+}

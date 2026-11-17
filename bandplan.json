@@ -1,0 +1,2905 @@
+{
+  "version": 1,
+  "sets": [
+    {
+      "name": "2.4 GHz WiFi",
+      "bands": [
+        {
+          "name": "WiFi",
+          "channels": [
+            {
+              "name": "1",
+              "centerHz": 2412000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "2",
+              "centerHz": 2417000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "3",
+              "centerHz": 2422000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "4",
+              "centerHz": 2427000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "5",
+              "centerHz": 2432000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "6",
+              "centerHz": 2437000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "7",
+              "centerHz": 2442000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "8",
+              "centerHz": 2447000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "9",
+              "centerHz": 2452000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "10",
+              "centerHz": 2457000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "11",
+              "centerHz": 2462000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "12",
+              "centerHz": 2467000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "13",
+              "centerHz": 2472000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "14",
+              "centerHz": 2484000000,
+              "widthHz": 20000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "5 GHz WiFi",
+      "bands": [
+        {
+          "name": "UNII-1",
+          "channels": [
+            {
+              "name": "36",
+              "centerHz": 5180000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "40",
+              "centerHz": 5200000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "44",
+              "centerHz": 5220000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "48",
+              "centerHz": 5240000000,
+              "widthHz": 20000000
+            }
+          ]
+        },
+        {
+          "name": "UNII-2A",
+          "channels": [
+            {
+              "name": "52",
+              "centerHz": 5260000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "56",
+              "centerHz": 5280000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "60",
+              "centerHz": 5300000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "64",
+              "centerHz": 5320000000,
+              "widthHz": 20000000
+            }
+          ]
+        },
+        {
+          "name": "UNII-2C",
+          "channels": [
+            {
+              "name": "100",
+              "centerHz": 5500000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "104",
+              "centerHz": 5520000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "108",
+              "centerHz": 5540000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "112",
+              "centerHz": 5560000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "116",
+              "centerHz": 5580000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "120",
+              "centerHz": 5600000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "124",
+              "centerHz": 5620000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "128",
+              "centerHz": 5640000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "132",
+              "centerHz": 5660000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "136",
+              "centerHz": 5680000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "140",
+              "centerHz": 5700000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "144",
+              "centerHz": 5720000000,
+              "widthHz": 20000000
+            }
+          ]
+        },
+        {
+          "name": "UNII-3",
+          "channels": [
+            {
+              "name": "149",
+              "centerHz": 5745000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "153",
+              "centerHz": 5765000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "157",
+              "centerHz": 5785000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "161",
+              "centerHz": 5805000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "165",
+              "centerHz": 5825000000,
+              "widthHz": 20000000
+            }
+          ]
+        },
+        {
+          "name": "UNII-4",
+          "channels": [
+            {
+              "name": "169",
+              "centerHz": 5845000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "173",
+              "centerHz": 5865000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "177",
+              "centerHz": 5885000000,
+              "widthHz": 20000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FPV Video (5.8 GHz)",
+      "bands": [
+        {
+          "name": "A",
+          "channels": [
+            {
+              "name": "1",
+              "centerHz": 5865000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "2",
+              "centerHz": 5845000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "3",
+              "centerHz": 5825000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "4",
+              "centerHz": 5805000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "5",
+              "centerHz": 5785000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "6",
+              "centerHz": 5765000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "7",
+              "centerHz": 5745000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "8",
+              "centerHz": 5725000000,
+              "widthHz": 20000000
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "channels": [
+            {
+              "name": "1",
+              "centerHz": 5733000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "2",
+              "centerHz": 5752000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "3",
+              "centerHz": 5771000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "4",
+              "centerHz": 5790000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "5",
+              "centerHz": 5809000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "6",
+              "centerHz": 5828000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "7",
+              "centerHz": 5847000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "8",
+              "centerHz": 5866000000,
+              "widthHz": 20000000
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "channels": [
+            {
+              "name": "1",
+              "centerHz": 5705000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "2",
+              "centerHz": 5685000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "3",
+              "centerHz": 5665000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "4",
+              "centerHz": 5645000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "5",
+              "centerHz": 5885000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "6",
+              "centerHz": 5905000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "7",
+              "centerHz": 5925000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "8",
+              "centerHz": 5945000000,
+              "widthHz": 20000000
+            }
+          ]
+        },
+        {
+          "name": "F",
+          "channels": [
+            {
+              "name": "1",
+              "centerHz": 5740000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "2",
+              "centerHz": 5760000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "3",
+              "centerHz": 5780000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "4",
+              "centerHz": 5800000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "5",
+              "centerHz": 5820000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "6",
+              "centerHz": 5840000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "7",
+              "centerHz": 5860000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "8",
+              "centerHz": 5880000000,
+              "widthHz": 20000000
+            }
+          ]
+        },
+        {
+          "name": "R",
+          "channels": [
+            {
+              "name": "1",
+              "centerHz": 5658000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "2",
+              "centerHz": 5695000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "3",
+              "centerHz": 5732000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "4",
+              "centerHz": 5769000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "5",
+              "centerHz": 5806000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "6",
+              "centerHz": 5843000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "7",
+              "centerHz": 5880000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "8",
+              "centerHz": 5917000000,
+              "widthHz": 20000000
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "channels": [
+            {
+              "name": "1",
+              "centerHz": 5362000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "2",
+              "centerHz": 5399000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "3",
+              "centerHz": 5436000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "4",
+              "centerHz": 5473000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "5",
+              "centerHz": 5510000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "6",
+              "centerHz": 5547000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "7",
+              "centerHz": 5584000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "8",
+              "centerHz": 5621000000,
+              "widthHz": 20000000
+            }
+          ]
+        },
+        {
+          "name": "U",
+          "channels": [
+            {
+              "name": "1",
+              "centerHz": 5325000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "2",
+              "centerHz": 5348000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "3",
+              "centerHz": 5366000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "4",
+              "centerHz": 5384000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "5",
+              "centerHz": 5402000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "6",
+              "centerHz": 5420000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "7",
+              "centerHz": 5438000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "8",
+              "centerHz": 5456000000,
+              "widthHz": 20000000
+            }
+          ]
+        },
+        {
+          "name": "O",
+          "channels": [
+            {
+              "name": "1",
+              "centerHz": 5474000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "2",
+              "centerHz": 5492000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "3",
+              "centerHz": 5510000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "4",
+              "centerHz": 5528000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "5",
+              "centerHz": 5546000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "6",
+              "centerHz": 5564000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "7",
+              "centerHz": 5582000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "8",
+              "centerHz": 5600000000,
+              "widthHz": 20000000
+            }
+          ]
+        },
+        {
+          "name": "L",
+          "channels": [
+            {
+              "name": "1",
+              "centerHz": 5333000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "2",
+              "centerHz": 5373000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "3",
+              "centerHz": 5413000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "4",
+              "centerHz": 5453000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "5",
+              "centerHz": 5493000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "6",
+              "centerHz": 5533000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "7",
+              "centerHz": 5573000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "8",
+              "centerHz": 5613000000,
+              "widthHz": 20000000
+            }
+          ]
+        },
+        {
+          "name": "H",
+          "channels": [
+            {
+              "name": "1",
+              "centerHz": 5653000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "2",
+              "centerHz": 5693000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "3",
+              "centerHz": 5733000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "4",
+              "centerHz": 5773000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "5",
+              "centerHz": 5813000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "6",
+              "centerHz": 5853000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "7",
+              "centerHz": 5893000000,
+              "widthHz": 20000000
+            },
+            {
+              "name": "8",
+              "centerHz": 5933000000,
+              "widthHz": 20000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zigbee (2.4 GHz)",
+      "bands": [
+        {
+          "name": "802.15.4",
+          "channels": [
+            {
+              "name": "11",
+              "centerHz": 2405000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "12",
+              "centerHz": 2410000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "13",
+              "centerHz": 2415000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "14",
+              "centerHz": 2420000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "15",
+              "centerHz": 2425000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "16",
+              "centerHz": 2430000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "17",
+              "centerHz": 2435000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "18",
+              "centerHz": 2440000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "19",
+              "centerHz": 2445000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "20",
+              "centerHz": 2450000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "21",
+              "centerHz": 2455000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "22",
+              "centerHz": 2460000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "23",
+              "centerHz": 2465000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "24",
+              "centerHz": 2470000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "25",
+              "centerHz": 2475000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "26",
+              "centerHz": 2480000000,
+              "widthHz": 2000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bluetooth (2.4 GHz)",
+      "bands": [
+        {
+          "name": "LE advertising",
+          "channels": [
+            {
+              "name": "37",
+              "centerHz": 2402000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "38",
+              "centerHz": 2426000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "39",
+              "centerHz": 2480000000,
+              "widthHz": 2000000
+            }
+          ]
+        },
+        {
+          "name": "LE data",
+          "channels": [
+            {
+              "name": "0",
+              "centerHz": 2404000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "1",
+              "centerHz": 2406000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "2",
+              "centerHz": 2408000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "3",
+              "centerHz": 2410000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "4",
+              "centerHz": 2412000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "5",
+              "centerHz": 2414000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "6",
+              "centerHz": 2416000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "7",
+              "centerHz": 2418000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "8",
+              "centerHz": 2420000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "9",
+              "centerHz": 2422000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "10",
+              "centerHz": 2424000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "11",
+              "centerHz": 2428000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "12",
+              "centerHz": 2430000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "13",
+              "centerHz": 2432000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "14",
+              "centerHz": 2434000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "15",
+              "centerHz": 2436000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "16",
+              "centerHz": 2438000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "17",
+              "centerHz": 2440000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "18",
+              "centerHz": 2442000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "19",
+              "centerHz": 2444000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "20",
+              "centerHz": 2446000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "21",
+              "centerHz": 2448000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "22",
+              "centerHz": 2450000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "23",
+              "centerHz": 2452000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "24",
+              "centerHz": 2454000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "25",
+              "centerHz": 2456000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "26",
+              "centerHz": 2458000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "27",
+              "centerHz": 2460000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "28",
+              "centerHz": 2462000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "29",
+              "centerHz": 2464000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "30",
+              "centerHz": 2466000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "31",
+              "centerHz": 2468000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "32",
+              "centerHz": 2470000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "33",
+              "centerHz": 2472000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "34",
+              "centerHz": 2474000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "35",
+              "centerHz": 2476000000,
+              "widthHz": 2000000
+            },
+            {
+              "name": "36",
+              "centerHz": 2478000000,
+              "widthHz": 2000000
+            }
+          ]
+        },
+        {
+          "name": "Classic",
+          "channels": [
+            {
+              "name": "0",
+              "centerHz": 2402000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "1",
+              "centerHz": 2403000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "2",
+              "centerHz": 2404000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "3",
+              "centerHz": 2405000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "4",
+              "centerHz": 2406000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "5",
+              "centerHz": 2407000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "6",
+              "centerHz": 2408000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "7",
+              "centerHz": 2409000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "8",
+              "centerHz": 2410000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "9",
+              "centerHz": 2411000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "10",
+              "centerHz": 2412000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "11",
+              "centerHz": 2413000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "12",
+              "centerHz": 2414000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "13",
+              "centerHz": 2415000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "14",
+              "centerHz": 2416000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "15",
+              "centerHz": 2417000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "16",
+              "centerHz": 2418000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "17",
+              "centerHz": 2419000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "18",
+              "centerHz": 2420000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "19",
+              "centerHz": 2421000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "20",
+              "centerHz": 2422000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "21",
+              "centerHz": 2423000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "22",
+              "centerHz": 2424000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "23",
+              "centerHz": 2425000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "24",
+              "centerHz": 2426000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "25",
+              "centerHz": 2427000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "26",
+              "centerHz": 2428000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "27",
+              "centerHz": 2429000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "28",
+              "centerHz": 2430000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "29",
+              "centerHz": 2431000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "30",
+              "centerHz": 2432000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "31",
+              "centerHz": 2433000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "32",
+              "centerHz": 2434000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "33",
+              "centerHz": 2435000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "34",
+              "centerHz": 2436000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "35",
+              "centerHz": 2437000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "36",
+              "centerHz": 2438000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "37",
+              "centerHz": 2439000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "38",
+              "centerHz": 2440000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "39",
+              "centerHz": 2441000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "40",
+              "centerHz": 2442000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "41",
+              "centerHz": 2443000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "42",
+              "centerHz": 2444000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "43",
+              "centerHz": 2445000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "44",
+              "centerHz": 2446000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "45",
+              "centerHz": 2447000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "46",
+              "centerHz": 2448000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "47",
+              "centerHz": 2449000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "48",
+              "centerHz": 2450000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "49",
+              "centerHz": 2451000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "50",
+              "centerHz": 2452000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "51",
+              "centerHz": 2453000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "52",
+              "centerHz": 2454000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "53",
+              "centerHz": 2455000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "54",
+              "centerHz": 2456000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "55",
+              "centerHz": 2457000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "56",
+              "centerHz": 2458000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "57",
+              "centerHz": 2459000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "58",
+              "centerHz": 2460000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "59",
+              "centerHz": 2461000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "60",
+              "centerHz": 2462000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "61",
+              "centerHz": 2463000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "62",
+              "centerHz": 2464000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "63",
+              "centerHz": 2465000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "64",
+              "centerHz": 2466000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "65",
+              "centerHz": 2467000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "66",
+              "centerHz": 2468000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "67",
+              "centerHz": 2469000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "68",
+              "centerHz": 2470000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "69",
+              "centerHz": 2471000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "70",
+              "centerHz": 2472000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "71",
+              "centerHz": 2473000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "72",
+              "centerHz": 2474000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "73",
+              "centerHz": 2475000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "74",
+              "centerHz": 2476000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "75",
+              "centerHz": 2477000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "76",
+              "centerHz": 2478000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "77",
+              "centerHz": 2479000000,
+              "widthHz": 1000000
+            },
+            {
+              "name": "78",
+              "centerHz": 2480000000,
+              "widthHz": 1000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LoRaWAN US915",
+      "bands": [
+        {
+          "name": "Uplink 125 kHz",
+          "channels": [
+            {
+              "name": "0",
+              "centerHz": 902300000,
+              "widthHz": 125000
+            },
+            {
+              "name": "1",
+              "centerHz": 902500000,
+              "widthHz": 125000
+            },
+            {
+              "name": "2",
+              "centerHz": 902700000,
+              "widthHz": 125000
+            },
+            {
+              "name": "3",
+              "centerHz": 902900000,
+              "widthHz": 125000
+            },
+            {
+              "name": "4",
+              "centerHz": 903100000,
+              "widthHz": 125000
+            },
+            {
+              "name": "5",
+              "centerHz": 903300000,
+              "widthHz": 125000
+            },
+            {
+              "name": "6",
+              "centerHz": 903500000,
+              "widthHz": 125000
+            },
+            {
+              "name": "7",
+              "centerHz": 903700000,
+              "widthHz": 125000
+            },
+            {
+              "name": "8",
+              "centerHz": 903900000,
+              "widthHz": 125000
+            },
+            {
+              "name": "9",
+              "centerHz": 904100000,
+              "widthHz": 125000
+            },
+            {
+              "name": "10",
+              "centerHz": 904300000,
+              "widthHz": 125000
+            },
+            {
+              "name": "11",
+              "centerHz": 904500000,
+              "widthHz": 125000
+            },
+            {
+              "name": "12",
+              "centerHz": 904700000,
+              "widthHz": 125000
+            },
+            {
+              "name": "13",
+              "centerHz": 904900000,
+              "widthHz": 125000
+            },
+            {
+              "name": "14",
+              "centerHz": 905100000,
+              "widthHz": 125000
+            },
+            {
+              "name": "15",
+              "centerHz": 905300000,
+              "widthHz": 125000
+            },
+            {
+              "name": "16",
+              "centerHz": 905500000,
+              "widthHz": 125000
+            },
+            {
+              "name": "17",
+              "centerHz": 905700000,
+              "widthHz": 125000
+            },
+            {
+              "name": "18",
+              "centerHz": 905900000,
+              "widthHz": 125000
+            },
+            {
+              "name": "19",
+              "centerHz": 906100000,
+              "widthHz": 125000
+            },
+            {
+              "name": "20",
+              "centerHz": 906300000,
+              "widthHz": 125000
+            },
+            {
+              "name": "21",
+              "centerHz": 906500000,
+              "widthHz": 125000
+            },
+            {
+              "name": "22",
+              "centerHz": 906700000,
+              "widthHz": 125000
+            },
+            {
+              "name": "23",
+              "centerHz": 906900000,
+              "widthHz": 125000
+            },
+            {
+              "name": "24",
+              "centerHz": 907100000,
+              "widthHz": 125000
+            },
+            {
+              "name": "25",
+              "centerHz": 907300000,
+              "widthHz": 125000
+            },
+            {
+              "name": "26",
+              "centerHz": 907500000,
+              "widthHz": 125000
+            },
+            {
+              "name": "27",
+              "centerHz": 907700000,
+              "widthHz": 125000
+            },
+            {
+              "name": "28",
+              "centerHz": 907900000,
+              "widthHz": 125000
+            },
+            {
+              "name": "29",
+              "centerHz": 908100000,
+              "widthHz": 125000
+            },
+            {
+              "name": "30",
+              "centerHz": 908300000,
+              "widthHz": 125000
+            },
+            {
+              "name": "31",
+              "centerHz": 908500000,
+              "widthHz": 125000
+            },
+            {
+              "name": "32",
+              "centerHz": 908700000,
+              "widthHz": 125000
+            },
+            {
+              "name": "33",
+              "centerHz": 908900000,
+              "widthHz": 125000
+            },
+            {
+              "name": "34",
+              "centerHz": 909100000,
+              "widthHz": 125000
+            },
+            {
+              "name": "35",
+              "centerHz": 909300000,
+              "widthHz": 125000
+            },
+            {
+              "name": "36",
+              "centerHz": 909500000,
+              "widthHz": 125000
+            },
+            {
+              "name": "37",
+              "centerHz": 909700000,
+              "widthHz": 125000
+            },
+            {
+              "name": "38",
+              "centerHz": 909900000,
+              "widthHz": 125000
+            },
+            {
+              "name": "39",
+              "centerHz": 910100000,
+              "widthHz": 125000
+            },
+            {
+              "name": "40",
+              "centerHz": 910300000,
+              "widthHz": 125000
+            },
+            {
+              "name": "41",
+              "centerHz": 910500000,
+              "widthHz": 125000
+            },
+            {
+              "name": "42",
+              "centerHz": 910700000,
+              "widthHz": 125000
+            },
+            {
+              "name": "43",
+              "centerHz": 910900000,
+              "widthHz": 125000
+            },
+            {
+              "name": "44",
+              "centerHz": 911100000,
+              "widthHz": 125000
+            },
+            {
+              "name": "45",
+              "centerHz": 911300000,
+              "widthHz": 125000
+            },
+            {
+              "name": "46",
+              "centerHz": 911500000,
+              "widthHz": 125000
+            },
+            {
+              "name": "47",
+              "centerHz": 911700000,
+              "widthHz": 125000
+            },
+            {
+              "name": "48",
+              "centerHz": 911900000,
+              "widthHz": 125000
+            },
+            {
+              "name": "49",
+              "centerHz": 912100000,
+              "widthHz": 125000
+            },
+            {
+              "name": "50",
+              "centerHz": 912300000,
+              "widthHz": 125000
+            },
+            {
+              "name": "51",
+              "centerHz": 912500000,
+              "widthHz": 125000
+            },
+            {
+              "name": "52",
+              "centerHz": 912700000,
+              "widthHz": 125000
+            },
+            {
+              "name": "53",
+              "centerHz": 912900000,
+              "widthHz": 125000
+            },
+            {
+              "name": "54",
+              "centerHz": 913100000,
+              "widthHz": 125000
+            },
+            {
+              "name": "55",
+              "centerHz": 913300000,
+              "widthHz": 125000
+            },
+            {
+              "name": "56",
+              "centerHz": 913500000,
+              "widthHz": 125000
+            },
+            {
+              "name": "57",
+              "centerHz": 913700000,
+              "widthHz": 125000
+            },
+            {
+              "name": "58",
+              "centerHz": 913900000,
+              "widthHz": 125000
+            },
+            {
+              "name": "59",
+              "centerHz": 914100000,
+              "widthHz": 125000
+            },
+            {
+              "name": "60",
+              "centerHz": 914300000,
+              "widthHz": 125000
+            },
+            {
+              "name": "61",
+              "centerHz": 914500000,
+              "widthHz": 125000
+            },
+            {
+              "name": "62",
+              "centerHz": 914700000,
+              "widthHz": 125000
+            },
+            {
+              "name": "63",
+              "centerHz": 914900000,
+              "widthHz": 125000
+            }
+          ]
+        },
+        {
+          "name": "Uplink 500 kHz",
+          "channels": [
+            {
+              "name": "64",
+              "centerHz": 903000000,
+              "widthHz": 500000
+            },
+            {
+              "name": "65",
+              "centerHz": 904600000,
+              "widthHz": 500000
+            },
+            {
+              "name": "66",
+              "centerHz": 906200000,
+              "widthHz": 500000
+            },
+            {
+              "name": "67",
+              "centerHz": 907800000,
+              "widthHz": 500000
+            },
+            {
+              "name": "68",
+              "centerHz": 909400000,
+              "widthHz": 500000
+            },
+            {
+              "name": "69",
+              "centerHz": 911000000,
+              "widthHz": 500000
+            },
+            {
+              "name": "70",
+              "centerHz": 912600000,
+              "widthHz": 500000
+            },
+            {
+              "name": "71",
+              "centerHz": 914200000,
+              "widthHz": 500000
+            }
+          ]
+        },
+        {
+          "name": "Downlink",
+          "channels": [
+            {
+              "name": "0",
+              "centerHz": 923300000,
+              "widthHz": 500000
+            },
+            {
+              "name": "1",
+              "centerHz": 923900000,
+              "widthHz": 500000
+            },
+            {
+              "name": "2",
+              "centerHz": 924500000,
+              "widthHz": 500000
+            },
+            {
+              "name": "3",
+              "centerHz": 925100000,
+              "widthHz": 500000
+            },
+            {
+              "name": "4",
+              "centerHz": 925700000,
+              "widthHz": 500000
+            },
+            {
+              "name": "5",
+              "centerHz": 926300000,
+              "widthHz": 500000
+            },
+            {
+              "name": "6",
+              "centerHz": 926900000,
+              "widthHz": 500000
+            },
+            {
+              "name": "7",
+              "centerHz": 927500000,
+              "widthHz": 500000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LoRaWAN EU868",
+      "bands": [
+        {
+          "name": "Default",
+          "channels": [
+            {
+              "name": "0",
+              "centerHz": 868100000,
+              "widthHz": 125000
+            },
+            {
+              "name": "1",
+              "centerHz": 868300000,
+              "widthHz": 125000
+            },
+            {
+              "name": "2",
+              "centerHz": 868500000,
+              "widthHz": 125000
+            }
+          ]
+        },
+        {
+          "name": "Additional",
+          "channels": [
+            {
+              "name": "3",
+              "centerHz": 867100000,
+              "widthHz": 125000
+            },
+            {
+              "name": "4",
+              "centerHz": 867300000,
+              "widthHz": 125000
+            },
+            {
+              "name": "5",
+              "centerHz": 867500000,
+              "widthHz": 125000
+            },
+            {
+              "name": "6",
+              "centerHz": 867700000,
+              "widthHz": 125000
+            },
+            {
+              "name": "7",
+              "centerHz": 867900000,
+              "widthHz": 125000
+            }
+          ]
+        },
+        {
+          "name": "RX2",
+          "channels": [
+            {
+              "name": "RX2",
+              "centerHz": 869525000,
+              "widthHz": 125000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LPD433",
+      "bands": [
+        {
+          "name": "LPD433",
+          "channels": [
+            {
+              "name": "1",
+              "centerHz": 433075000,
+              "widthHz": 25000
+            },
+            {
+              "name": "2",
+              "centerHz": 433100000,
+              "widthHz": 25000
+            },
+            {
+              "name": "3",
+              "centerHz": 433125000,
+              "widthHz": 25000
+            },
+            {
+              "name": "4",
+              "centerHz": 433150000,
+              "widthHz": 25000
+            },
+            {
+              "name": "5",
+              "centerHz": 433175000,
+              "widthHz": 25000
+            },
+            {
+              "name": "6",
+              "centerHz": 433200000,
+              "widthHz": 25000
+            },
+            {
+              "name": "7",
+              "centerHz": 433225000,
+              "widthHz": 25000
+            },
+            {
+              "name": "8",
+              "centerHz": 433250000,
+              "widthHz": 25000
+            },
+            {
+              "name": "9",
+              "centerHz": 433275000,
+              "widthHz": 25000
+            },
+            {
+              "name": "10",
+              "centerHz": 433300000,
+              "widthHz": 25000
+            },
+            {
+              "name": "11",
+              "centerHz": 433325000,
+              "widthHz": 25000
+            },
+            {
+              "name": "12",
+              "centerHz": 433350000,
+              "widthHz": 25000
+            },
+            {
+              "name": "13",
+              "centerHz": 433375000,
+              "widthHz": 25000
+            },
+            {
+              "name": "14",
+              "centerHz": 433400000,
+              "widthHz": 25000
+            },
+            {
+              "name": "15",
+              "centerHz": 433425000,
+              "widthHz": 25000
+            },
+            {
+              "name": "16",
+              "centerHz": 433450000,
+              "widthHz": 25000
+            },
+            {
+              "name": "17",
+              "centerHz": 433475000,
+              "widthHz": 25000
+            },
+            {
+              "name": "18",
+              "centerHz": 433500000,
+              "widthHz": 25000
+            },
+            {
+              "name": "19",
+              "centerHz": 433525000,
+              "widthHz": 25000
+            },
+            {
+              "name": "20",
+              "centerHz": 433550000,
+              "widthHz": 25000
+            },
+            {
+              "name": "21",
+              "centerHz": 433575000,
+              "widthHz": 25000
+            },
+            {
+              "name": "22",
+              "centerHz": 433600000,
+              "widthHz": 25000
+            },
+            {
+              "name": "23",
+              "centerHz": 433625000,
+              "widthHz": 25000
+            },
+            {
+              "name": "24",
+              "centerHz": 433650000,
+              "widthHz": 25000
+            },
+            {
+              "name": "25",
+              "centerHz": 433675000,
+              "widthHz": 25000
+            },
+            {
+              "name": "26",
+              "centerHz": 433700000,
+              "widthHz": 25000
+            },
+            {
+              "name": "27",
+              "centerHz": 433725000,
+              "widthHz": 25000
+            },
+            {
+              "name": "28",
+              "centerHz": 433750000,
+              "widthHz": 25000
+            },
+            {
+              "name": "29",
+              "centerHz": 433775000,
+              "widthHz": 25000
+            },
+            {
+              "name": "30",
+              "centerHz": 433800000,
+              "widthHz": 25000
+            },
+            {
+              "name": "31",
+              "centerHz": 433825000,
+              "widthHz": 25000
+            },
+            {
+              "name": "32",
+              "centerHz": 433850000,
+              "widthHz": 25000
+            },
+            {
+              "name": "33",
+              "centerHz": 433875000,
+              "widthHz": 25000
+            },
+            {
+              "name": "34",
+              "centerHz": 433900000,
+              "widthHz": 25000
+            },
+            {
+              "name": "35",
+              "centerHz": 433925000,
+              "widthHz": 25000
+            },
+            {
+              "name": "36",
+              "centerHz": 433950000,
+              "widthHz": 25000
+            },
+            {
+              "name": "37",
+              "centerHz": 433975000,
+              "widthHz": 25000
+            },
+            {
+              "name": "38",
+              "centerHz": 434000000,
+              "widthHz": 25000
+            },
+            {
+              "name": "39",
+              "centerHz": 434025000,
+              "widthHz": 25000
+            },
+            {
+              "name": "40",
+              "centerHz": 434050000,
+              "widthHz": 25000
+            },
+            {
+              "name": "41",
+              "centerHz": 434075000,
+              "widthHz": 25000
+            },
+            {
+              "name": "42",
+              "centerHz": 434100000,
+              "widthHz": 25000
+            },
+            {
+              "name": "43",
+              "centerHz": 434125000,
+              "widthHz": 25000
+            },
+            {
+              "name": "44",
+              "centerHz": 434150000,
+              "widthHz": 25000
+            },
+            {
+              "name": "45",
+              "centerHz": 434175000,
+              "widthHz": 25000
+            },
+            {
+              "name": "46",
+              "centerHz": 434200000,
+              "widthHz": 25000
+            },
+            {
+              "name": "47",
+              "centerHz": 434225000,
+              "widthHz": 25000
+            },
+            {
+              "name": "48",
+              "centerHz": 434250000,
+              "widthHz": 25000
+            },
+            {
+              "name": "49",
+              "centerHz": 434275000,
+              "widthHz": 25000
+            },
+            {
+              "name": "50",
+              "centerHz": 434300000,
+              "widthHz": 25000
+            },
+            {
+              "name": "51",
+              "centerHz": 434325000,
+              "widthHz": 25000
+            },
+            {
+              "name": "52",
+              "centerHz": 434350000,
+              "widthHz": 25000
+            },
+            {
+              "name": "53",
+              "centerHz": 434375000,
+              "widthHz": 25000
+            },
+            {
+              "name": "54",
+              "centerHz": 434400000,
+              "widthHz": 25000
+            },
+            {
+              "name": "55",
+              "centerHz": 434425000,
+              "widthHz": 25000
+            },
+            {
+              "name": "56",
+              "centerHz": 434450000,
+              "widthHz": 25000
+            },
+            {
+              "name": "57",
+              "centerHz": 434475000,
+              "widthHz": 25000
+            },
+            {
+              "name": "58",
+              "centerHz": 434500000,
+              "widthHz": 25000
+            },
+            {
+              "name": "59",
+              "centerHz": 434525000,
+              "widthHz": 25000
+            },
+            {
+              "name": "60",
+              "centerHz": 434550000,
+              "widthHz": 25000
+            },
+            {
+              "name": "61",
+              "centerHz": 434575000,
+              "widthHz": 25000
+            },
+            {
+              "name": "62",
+              "centerHz": 434600000,
+              "widthHz": 25000
+            },
+            {
+              "name": "63",
+              "centerHz": 434625000,
+              "widthHz": 25000
+            },
+            {
+              "name": "64",
+              "centerHz": 434650000,
+              "widthHz": 25000
+            },
+            {
+              "name": "65",
+              "centerHz": 434675000,
+              "widthHz": 25000
+            },
+            {
+              "name": "66",
+              "centerHz": 434700000,
+              "widthHz": 25000
+            },
+            {
+              "name": "67",
+              "centerHz": 434725000,
+              "widthHz": 25000
+            },
+            {
+              "name": "68",
+              "centerHz": 434750000,
+              "widthHz": 25000
+            },
+            {
+              "name": "69",
+              "centerHz": 434775000,
+              "widthHz": 25000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PMR446",
+      "bands": [
+        {
+          "name": "PMR446",
+          "channels": [
+            {
+              "name": "1",
+              "centerHz": 446006250,
+              "widthHz": 12500
+            },
+            {
+              "name": "2",
+              "centerHz": 446018750,
+              "widthHz": 12500
+            },
+            {
+              "name": "3",
+              "centerHz": 446031250,
+              "widthHz": 12500
+            },
+            {
+              "name": "4",
+              "centerHz": 446043750,
+              "widthHz": 12500
+            },
+            {
+              "name": "5",
+              "centerHz": 446056250,
+              "widthHz": 12500
+            },
+            {
+              "name": "6",
+              "centerHz": 446068750,
+              "widthHz": 12500
+            },
+            {
+              "name": "7",
+              "centerHz": 446081250,
+              "widthHz": 12500
+            },
+            {
+              "name": "8",
+              "centerHz": 446093750,
+              "widthHz": 12500
+            },
+            {
+              "name": "9",
+              "centerHz": 446106250,
+              "widthHz": 12500
+            },
+            {
+              "name": "10",
+              "centerHz": 446118750,
+              "widthHz": 12500
+            },
+            {
+              "name": "11",
+              "centerHz": 446131250,
+              "widthHz": 12500
+            },
+            {
+              "name": "12",
+              "centerHz": 446143750,
+              "widthHz": 12500
+            },
+            {
+              "name": "13",
+              "centerHz": 446156250,
+              "widthHz": 12500
+            },
+            {
+              "name": "14",
+              "centerHz": 446168750,
+              "widthHz": 12500
+            },
+            {
+              "name": "15",
+              "centerHz": 446181250,
+              "widthHz": 12500
+            },
+            {
+              "name": "16",
+              "centerHz": 446193750,
+              "widthHz": 12500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MURS",
+      "bands": [
+        {
+          "name": "MURS",
+          "channels": [
+            {
+              "name": "1",
+              "centerHz": 151820000,
+              "widthHz": 11250
+            },
+            {
+              "name": "2",
+              "centerHz": 151880000,
+              "widthHz": 11250
+            },
+            {
+              "name": "3",
+              "centerHz": 151940000,
+              "widthHz": 11250
+            },
+            {
+              "name": "4",
+              "centerHz": 154570000,
+              "widthHz": 20000
+            },
+            {
+              "name": "5",
+              "centerHz": 154600000,
+              "widthHz": 20000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GMRS",
+      "bands": [
+        {
+          "name": "462 MHz",
+          "channels": [
+            {
+              "name": "15",
+              "centerHz": 462550000,
+              "widthHz": 20000
+            },
+            {
+              "name": "1",
+              "centerHz": 462562500,
+              "widthHz": 20000
+            },
+            {
+              "name": "16",
+              "centerHz": 462575000,
+              "widthHz": 20000
+            },
+            {
+              "name": "2",
+              "centerHz": 462587500,
+              "widthHz": 20000
+            },
+            {
+              "name": "17",
+              "centerHz": 462600000,
+              "widthHz": 20000
+            },
+            {
+              "name": "3",
+              "centerHz": 462612500,
+              "widthHz": 20000
+            },
+            {
+              "name": "18",
+              "centerHz": 462625000,
+              "widthHz": 20000
+            },
+            {
+              "name": "4",
+              "centerHz": 462637500,
+              "widthHz": 20000
+            },
+            {
+              "name": "19",
+              "centerHz": 462650000,
+              "widthHz": 20000
+            },
+            {
+              "name": "5",
+              "centerHz": 462662500,
+              "widthHz": 20000
+            },
+            {
+              "name": "20",
+              "centerHz": 462675000,
+              "widthHz": 20000
+            },
+            {
+              "name": "6",
+              "centerHz": 462687500,
+              "widthHz": 20000
+            },
+            {
+              "name": "21",
+              "centerHz": 462700000,
+              "widthHz": 20000
+            },
+            {
+              "name": "7",
+              "centerHz": 462712500,
+              "widthHz": 20000
+            },
+            {
+              "name": "22",
+              "centerHz": 462725000,
+              "widthHz": 20000
+            }
+          ]
+        },
+        {
+          "name": "467 MHz",
+          "channels": [
+            {
+              "name": "8",
+              "centerHz": 467562500,
+              "widthHz": 12500
+            },
+            {
+              "name": "9",
+              "centerHz": 467587500,
+              "widthHz": 12500
+            },
+            {
+              "name": "10",
+              "centerHz": 467612500,
+              "widthHz": 12500
+            },
+            {
+              "name": "11",
+              "centerHz": 467637500,
+              "widthHz": 12500
+            },
+            {
+              "name": "12",
+              "centerHz": 467662500,
+              "widthHz": 12500
+            },
+            {
+              "name": "13",
+              "centerHz": 467687500,
+              "widthHz": 12500
+            },
+            {
+              "name": "14",
+              "centerHz": 467712500,
+              "widthHz": 12500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marine VHF",
+      "bands": [
+        {
+          "name": "Ship",
+          "channels": [
+            {
+              "name": "60",
+              "centerHz": 156025000,
+              "widthHz": 16000
+            },
+            {
+              "name": "01",
+              "centerHz": 156050000,
+              "widthHz": 16000
+            },
+            {
+              "name": "61",
+              "centerHz": 156075000,
+              "widthHz": 16000
+            },
+            {
+              "name": "02",
+              "centerHz": 156100000,
+              "widthHz": 16000
+            },
+            {
+              "name": "62",
+              "centerHz": 156125000,
+              "widthHz": 16000
+            },
+            {
+              "name": "03",
+              "centerHz": 156150000,
+              "widthHz": 16000
+            },
+            {
+              "name": "63",
+              "centerHz": 156175000,
+              "widthHz": 16000
+            },
+            {
+              "name": "04",
+              "centerHz": 156200000,
+              "widthHz": 16000
+            },
+            {
+              "name": "64",
+              "centerHz": 156225000,
+              "widthHz": 16000
+            },
+            {
+              "name": "05",
+              "centerHz": 156250000,
+              "widthHz": 16000
+            },
+            {
+              "name": "65",
+              "centerHz": 156275000,
+              "widthHz": 16000
+            },
+            {
+              "name": "06",
+              "centerHz": 156300000,
+              "widthHz": 16000
+            },
+            {
+              "name": "66",
+              "centerHz": 156325000,
+              "widthHz": 16000
+            },
+            {
+              "name": "07",
+              "centerHz": 156350000,
+              "widthHz": 16000
+            },
+            {
+              "name": "67",
+              "centerHz": 156375000,
+              "widthHz": 16000
+            },
+            {
+              "name": "08",
+              "centerHz": 156400000,
+              "widthHz": 16000
+            },
+            {
+              "name": "68",
+              "centerHz": 156425000,
+              "widthHz": 16000
+            },
+            {
+              "name": "09",
+              "centerHz": 156450000,
+              "widthHz": 16000
+            },
+            {
+              "name": "69",
+              "centerHz": 156475000,
+              "widthHz": 16000
+            },
+            {
+              "name": "10",
+              "centerHz": 156500000,
+              "widthHz": 16000
+            },
+            {
+              "name": "70",
+              "centerHz": 156525000,
+              "widthHz": 16000
+            },
+            {
+              "name": "11",
+              "centerHz": 156550000,
+              "widthHz": 16000
+            },
+            {
+              "name": "71",
+              "centerHz": 156575000,
+              "widthHz": 16000
+            },
+            {
+              "name": "12",
+              "centerHz": 156600000,
+              "widthHz": 16000
+            },
+            {
+              "name": "72",
+              "centerHz": 156625000,
+              "widthHz": 16000
+            },
+            {
+              "name": "13",
+              "centerHz": 156650000,
+              "widthHz": 16000
+            },
+            {
+              "name": "73",
+              "centerHz": 156675000,
+              "widthHz": 16000
+            },
+            {
+              "name": "14",
+              "centerHz": 156700000,
+              "widthHz": 16000
+            },
+            {
+              "name": "74",
+              "centerHz": 156725000,
+              "widthHz": 16000
+            },
+            {
+              "name": "15",
+              "centerHz": 156750000,
+              "widthHz": 16000
+            },
+            {
+              "name": "75",
+              "centerHz": 156775000,
+              "widthHz": 16000
+            },
+            {
+              "name": "16",
+              "centerHz": 156800000,
+              "widthHz": 16000
+            },
+            {
+              "name": "76",
+              "centerHz": 156825000,
+              "widthHz": 16000
+            },
+            {
+              "name": "17",
+              "centerHz": 156850000,
+              "widthHz": 16000
+            },
+            {
+              "name": "77",
+              "centerHz": 156875000,
+              "widthHz": 16000
+            },
+            {
+              "name": "18",
+              "centerHz": 156900000,
+              "widthHz": 16000
+            },
+            {
+              "name": "78",
+              "centerHz": 156925000,
+              "widthHz": 16000
+            },
+            {
+              "name": "19",
+              "centerHz": 156950000,
+              "widthHz": 16000
+            },
+            {
+              "name": "79",
+              "centerHz": 156975000,
+              "widthHz": 16000
+            },
+            {
+              "name": "20",
+              "centerHz": 157000000,
+              "widthHz": 16000
+            },
+            {
+              "name": "80",
+              "centerHz": 157025000,
+              "widthHz": 16000
+            },
+            {
+              "name": "21",
+              "centerHz": 157050000,
+              "widthHz": 16000
+            },
+            {
+              "name": "81",
+              "centerHz": 157075000,
+              "widthHz": 16000
+            },
+            {
+              "name": "22",
+              "centerHz": 157100000,
+              "widthHz": 16000
+            },
+            {
+              "name": "82",
+              "centerHz": 157125000,
+              "widthHz": 16000
+            },
+            {
+              "name": "23",
+              "centerHz": 157150000,
+              "widthHz": 16000
+            },
+            {
+              "name": "83",
+              "centerHz": 157175000,
+              "widthHz": 16000
+            },
+            {
+              "name": "24",
+              "centerHz": 157200000,
+              "widthHz": 16000
+            },
+            {
+              "name": "84",
+              "centerHz": 157225000,
+              "widthHz": 16000
+            },
+            {
+              "name": "25",
+              "centerHz": 157250000,
+              "widthHz": 16000
+            },
+            {
+              "name": "85",
+              "centerHz": 157275000,
+              "widthHz": 16000
+            },
+            {
+              "name": "26",
+              "centerHz": 157300000,
+              "widthHz": 16000
+            },
+            {
+              "name": "86",
+              "centerHz": 157325000,
+              "widthHz": 16000
+            },
+            {
+              "name": "27",
+              "centerHz": 157350000,
+              "widthHz": 16000
+            },
+            {
+              "name": "87",
+              "centerHz": 157375000,
+              "widthHz": 16000
+            },
+            {
+              "name": "28",
+              "centerHz": 157400000,
+              "widthHz": 16000
+            },
+            {
+              "name": "88",
+              "centerHz": 157425000,
+              "widthHz": 16000
+            }
+          ]
+        },
+        {
+          "name": "AIS",
+          "channels": [
+            {
+              "name": "AIS 1",
+              "centerHz": 161975000,
+              "widthHz": 25000
+            },
+            {
+              "name": "AIS 2",
+              "centerHz": 162025000,
+              "widthHz": 25000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NOAA Weather Radio",
+      "bands": [
+        {
+          "name": "WX",
+          "channels": [
+            {
+              "name": "WX1",
+              "centerHz": 162550000,
+              "widthHz": 16000
+            },
+            {
+              "name": "WX2",
+              "centerHz": 162400000,
+              "widthHz": 16000
+            },
+            {
+              "name": "WX3",
+              "centerHz": 162475000,
+              "widthHz": 16000
+            },
+            {
+              "name": "WX4",
+              "centerHz": 162425000,
+              "widthHz": 16000
+            },
+            {
+              "name": "WX5",
+              "centerHz": 162450000,
+              "widthHz": 16000
+            },
+            {
+              "name": "WX6",
+              "centerHz": 162500000,
+              "widthHz": 16000
+            },
+            {
+              "name": "WX7",
+              "centerHz": 162525000,
+              "widthHz": 16000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amateur VHF/UHF (US)",
+      "bands": [
+        {
+          "name": "2 m",
+          "channels": [
+            {
+              "name": "2 m",
+              "centerHz": 146000000,
+              "widthHz": 4000000
+            }
+          ]
+        },
+        {
+          "name": "1.25 m",
+          "channels": [
+            {
+              "name": "1.25 m",
+              "centerHz": 223500000,
+              "widthHz": 3000000
+            }
+          ]
+        },
+        {
+          "name": "70 cm",
+          "channels": [
+            {
+              "name": "70 cm",
+              "centerHz": 435000000,
+              "widthHz": 30000000
+            }
+          ]
+        },
+        {
+          "name": "APRS",
+          "channels": [
+            {
+              "name": "APRS",
+              "centerHz": 144390000,
+              "widthHz": 16000
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
